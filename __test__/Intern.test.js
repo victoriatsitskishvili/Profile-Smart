@@ -1,4 +1,4 @@
-// //Require the Intern module//
+//Require the Intern module//
 const Intern = require('../lib/Intern');
 
 //Using constuctor as an argument in the expect method//
@@ -16,7 +16,7 @@ test('gets employee school', () => {
 });
 
 // Getting a role from getRole()// 
-test('gets role of employee', () => {
+test('Getting a role of an employee', () => {
     const intern = new Intern('');
 
     expect(intern.getRole()).toEqual("Intern");
