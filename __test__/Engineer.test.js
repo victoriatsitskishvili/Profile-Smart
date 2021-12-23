@@ -1,23 +1,17 @@
 //Require the Engineer module//
 const Engineer = require('../lib/Engineer');
 
-//Using constuctor as an argument in the expect method//
-test('creating an Engineer object', () => {
-    const engineer = new Engineer();
-
-    expect(engineer.github) .toEqual(expect.any(String));
-});
-
 // Getting a github from getGithub()//
 test('Getting an engineer github value', () => {
-    const engineer = new Engineer();
+    const engineer = new Engineer('victoria', '1',' victoria@test.com', 'victoriatsitskishvili')
 
-    expect(engineer.getGithub()).toEqual(expect.stringContaining(engineer.github.toString()));
+    expect(engineer.github).toBe('victoriatsitskishvili');
+    
 });
 
 // Getting a role from getRole()// 
 test('Getting a role of employee', () => {
-    const engineer = new Engineer();
+    const engineer = new Engineer('victoria', '1',' victoria@test.com', 'victoriatsitskishvili', 'Engineer');
     
-    expect(engineer.getRole()).toEqual("Engineer");
+    expect(engineer.getRole()).toBe('Engineer');
 });
