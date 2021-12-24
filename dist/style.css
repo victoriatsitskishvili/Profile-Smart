@@ -1,0 +1,36 @@
+.team-profiles{
+    background-color: #E84855;
+    color: #ffffff;
+}
+
+.team-info {
+    flex-wrap: wrap;
+    margin: 3em auto;
+    max-width: 1000px;
+}
+
+.employee-form {
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1em;
+    max-width: 280px;
+    width: 90%;
+    min-height: 22rem;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.7);
+    border: none;
+}
+
+.profile-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F6F7F8;
+}
+
+.list-item {
+    color: #000000;
+    text-decoration: none;
+}
