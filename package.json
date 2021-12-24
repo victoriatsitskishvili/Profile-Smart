@@ -1,0 +1,28 @@
+{
+  "name": "profile-smart",
+  "version": "1.0.0",
+  "description": "Profile Generator",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriatsitskishvili/Profile-Smart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriatsitskishvili/Profile-Smart/issues"
+  },
+  "homepage": "https://github.com/victoriatsitskishvili/Profile-Smart#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
